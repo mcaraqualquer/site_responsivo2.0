@@ -1,0 +1,84 @@
+@import url("styles/header.css");
+@import url("styles/rodapé.css");
+
+*{
+    margin: 0;
+    padding: 0;
+}
+    
+Body{
+    font-family: 'Playfair Display', serif;
+}
+
+.cabecalho {
+    background-color: #000000;
+    color: #00FF0A;
+    display: flex;
+    justify-content: space-around;
+    padding: 24px 0;
+}
+
+.cabecalho-imagem{
+    width: 20%;
+}
+
+.cabecalho-lista-item{
+    display: inline-block;
+    margin: 40px 16px;
+    font-size: 24px;
+}
+
+.Bikers-imagem{
+width: 20%;
+}
+
+.Bikers{
+    background-image: linear-gradient(#000000,#353333);
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0;
+}
+
+.Bikers-div-conteúdo{
+    width: 35%;
+}
+
+.Bikers-título{
+    color: #00FF0A;
+    padding: 24px 0;
+}
+
+.Locais-imagem{
+    width: 300px;
+}
+
+.Locais-ícone{
+    width: 24px;
+    padding: 5px;
+}
+
+.Locais-div{
+    text-align: center;
+}
+
+.Locais-título{
+    text-align: center;
+    padding: 50px 0;
+}
+
+.Locais-todos{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+
+.rodapé{
+    background: #000000;
+    text-align: center;
+}
+
+.rodapé-imagem{
+    height: 60px;
+    padding: 12px 0;
+}
